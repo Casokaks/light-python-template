@@ -26,7 +26,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/Casokaks/light-python-template/issues"
     },
     license='MIT',
-    packages=['light-python-template'],
+    packages=['projectname'],
     install_requires=[],  # ['plotly', 'numpy', ],
 )
 
