@@ -1,6 +1,3 @@
-# Project name
+# Light python package template
 
-Project description
-
-To install open a terminal and run the command: "pip install git+https://github.com/Casokaks/project-name.git"
-
+To install: in a terminal run "pip install git+https://github.com/Casokaks/light-python-template.git"
