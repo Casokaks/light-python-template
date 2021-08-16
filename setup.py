@@ -8,9 +8,9 @@ Created on: Aug 15th 2021
 """
 
 from setuptools import setup
-import os
 
-key = os.environ['GITHUB_TOKEN']
+#import os
+#key = os.environ['GITHUB_TOKEN']
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
