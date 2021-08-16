@@ -7,13 +7,15 @@ Created on: Aug 15th 2021
 
 """
 
+from setuptools import setup
+import os
 
-import setuptools
+github_token = os.environ['GITHUB_TOKEN']
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-setuptools.setup(
+setup(
     name='projectname',
     version='0.0.1',
     author='Casokaks',
@@ -27,6 +29,14 @@ setuptools.setup(
     },
     license='MIT',
     packages=['projectname'],
-    install_requires=[],  # ['plotly', 'numpy', ],
+    install_requires=[
+        # Standard python packages:
+        #'pandas',
+        #'numpy',
+        # Public github repository:
+        #'<repo-name> @ git+https://github.com/<user-name>/<repo-name>',        
+        # Private github repository:
+        #'<repo-name> @ git+ssh://{github_token}@github.com/<user-name>/<repo-name>'.format(github_token=github_token),
+    ],  
 )
 
