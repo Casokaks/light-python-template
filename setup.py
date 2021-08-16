@@ -36,7 +36,7 @@ setup(
         # Public github repository:
         #'<reponame> @ git+https://github.com/<username>/<reponame>@main',        
         # Private github repository:
-        #'reponame @ git+ssh://{key}@github.com/username/reponame@main'.format(key=key),
+        #'reponame @ git+https://{key}@github.com/username/reponame@main'.format(key=key),
     ],  
 )
 
