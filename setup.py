@@ -10,7 +10,7 @@ Created on: Aug 15th 2021
 from setuptools import setup
 import os
 
-github_token = os.environ['GITHUB_TOKEN']
+key = os.environ['GITHUB_TOKEN']
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -34,9 +34,9 @@ setup(
         #'pandas',
         #'numpy',
         # Public github repository:
-        #'<repo-name> @ git+https://github.com/<user-name>/<repo-name>',        
+        #'<reponame> @ git+https://github.com/<username>/<reponame>@main',        
         # Private github repository:
-        #'<repo-name> @ git+ssh://{github_token}@github.com/<user-name>/<repo-name>'.format(github_token=github_token),
+        #'reponame @ git+ssh://{key}@github.com/username/reponame@main'.format(key=key),
     ],  
 )
 
