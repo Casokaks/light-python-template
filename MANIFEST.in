@@ -1,6 +1,6 @@
 # MANIFEST.in
-recursive-include projectname/config *.*
-recursive-include projectname/data *.*
-recursive-include projectname/docs *.*
-recursive-include projectname/tests *.*
-recursive-include projectname/utils *.*
+recursive-include projectname/config *
+recursive-include projectname/data *
+recursive-include projectname/docs *
+recursive-include projectname/tests *
+recursive-include projectname/utils *

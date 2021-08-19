@@ -6,11 +6,11 @@ https://github.com/Casokaks/light-python-template.git
 
 ### To install the repository:
 
-public: 
+PUBLIC: 
 
 pip install git+https://github.com/Casokaks/light-python-template
 
-private: 
+PRIVATE: 
 
 export GITHUB_TOKEN=PRIVATE_GITHUB_TOKEN
 
