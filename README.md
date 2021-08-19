@@ -1,17 +1,15 @@
 # Light python package template
 
-### 01. To install the repository:
+### >>> PUBLIC REPO <<<
 
-PUBLIC: 
+INSTALL: pip install git+https://github.com/Casokaks/light-python-template
 
-pip install git+https://github.com/Casokaks/light-python-template
+CLONE: git clone https://github.com/Casokaks/light-python-template.git
 
-PRIVATE: 
+### >>> PRIVATE REPO <<<
 
 export GITHUB_TOKEN=PRIVATE_GITHUB_TOKEN
 
-pip install git+https://$GITHUB_TOKEN@github.com/Casokaks/light-python-template
+INSTALL: pip install git+https://github.com/Casokaks/light-python-template
 
-### 02. To clone the repository:
-
-https://github.com/Casokaks/light-python-template.git
+CLONE: git clone https://$GITHUB_TOKEN@github.com/Casokaks/light-python-template.git
