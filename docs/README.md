@@ -1,3 +1,5 @@
 # docs
 
-Place here project data, documents, notebooks, models, outputs, etc.
+Folder for project data, documents, notebooks, models, outputs, etc.
+
+Not to be included in the python package installation.
