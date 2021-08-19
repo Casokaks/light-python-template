@@ -16,7 +16,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 from setuptools import setup, find_packages
 setup(
     name='projectname',
-    version='0.0.1',
+    version='0.3.1',
     author='Casokaks',
     author_email='casokaks@gmail.com',
     description='Light python template.',
