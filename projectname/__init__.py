@@ -16,4 +16,6 @@ __version__ = "0.3.1"
 # -----------------------------------------------------------------------------------
 # Imports from modules
 # -----------------------------------------------------------------------------------
-from .module import *
+from .module import *  # The General Store: expose all modules, functions, attributes in projectname
+from .module import placeholder  # The Convenience Store: expose only selected objects in projectname 
+import projectname.module  # Online grocery shopping: expose only modules in projectname 
