@@ -14,7 +14,7 @@ Created on: Aug 15th 2021
 __version__ = "0.3.1"
 
 # -----------------------------------------------------------------------------------
-# Imports ()
+# Imports
 # -----------------------------------------------------------------------------------
 from .module import *  # The General Store: expose all modules, functions, attributes in projectname
 from .module import placeholder  # The Convenience Store: expose only selected objects in projectname 
