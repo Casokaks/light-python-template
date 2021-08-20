@@ -18,12 +18,12 @@ setup(
     version='0.3.1',
     author='Casokaks',
     author_email='casokaks@gmail.com',
-    description='Light python template.',
+    description='Template for python public repo projects with MIT license.',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/Casokaks/light-python-template',
+    url='https://github.com/Casokaks/light-python-template-public-mit',
     project_urls = {
-        "Bug Tracker": "https://github.com/Casokaks/light-python-template/issues"
+        "Bug Tracker": "https://github.com/Casokaks/light-python-template-public-mit/issues"
     },
     license='MIT',
     packages=find_packages(),
